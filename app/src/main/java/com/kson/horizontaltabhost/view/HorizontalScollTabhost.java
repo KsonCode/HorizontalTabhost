@@ -78,7 +78,7 @@ public class HorizontalScollTabhost extends LinearLayout implements ViewPager.On
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.HorizontalScollTabhost);
 
         mBgColor = typedArray.getColor(R.styleable.HorizontalScollTabhost_top_background, 0x20999999);
-        mTextSize = (int) typedArray.getDimension(R.styleable.HorizontalScollTabhost_textSize,TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,15,getResources().getDisplayMetrics()));
+        mTextSize = (int) typedArray.getDimension(R.styleable.HorizontalScollTabhost_textSize, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 15, getResources().getDisplayMetrics()));
         typedArray.recycle();
 
         initView();
@@ -143,7 +143,9 @@ public class HorizontalScollTabhost extends LinearLayout implements ViewPager.On
         for (int i = 0; i < count; i++) {
             CategoryBean bean = (CategoryBean) list.get(i);
             final TextView tv = (TextView) View.inflate(mContext, R.layout.news_top_tv_item, null);
-            tv.setTextSize(TypedValue.COMPLEX_UNIT_PX,mTextSize);
+
+            //这行代码很重要，
+            tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextSize);
             tv.setText(bean.name);
 
             final int finalI = i;
