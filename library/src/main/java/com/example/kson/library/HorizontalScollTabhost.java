@@ -1,4 +1,4 @@
-package com.kson.horizontaltabhost.view;
+package com.example.kson.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,9 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-import com.kson.horizontaltabhost.R;
-import com.kson.horizontaltabhost.bean.CategoryBean;
-import com.kson.horizontaltabhost.utils.AppUtils;
+import com.example.kson.library.bean.CategoryBean;
 
 import java.util.ArrayList;
 import java.util.List;

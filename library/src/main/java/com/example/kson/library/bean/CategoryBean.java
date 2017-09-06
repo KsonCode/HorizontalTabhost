@@ -1,4 +1,4 @@
-package com.kson.horizontaltabhost.bean;
+package com.example.kson.library.bean;
 
 /**
  * Author:kson

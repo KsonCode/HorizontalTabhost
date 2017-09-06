@@ -4,9 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.kson.horizontaltabhost.bean.CategoryBean;
+import com.example.kson.library.HorizontalScollTabhost;
+import com.example.kson.library.bean.CategoryBean;
 import com.kson.horizontaltabhost.fragment.MyFragment;
-import com.kson.horizontaltabhost.view.HorizontalScollTabhost;
 
 import java.util.ArrayList;
 import java.util.List;

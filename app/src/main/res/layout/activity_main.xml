@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context="com.kson.horizontaltabhost.MainActivity">
 
-    <com.kson.horizontaltabhost.view.HorizontalScollTabhost
+    <com.example.kson.library.HorizontalScollTabhost
         android:id="@+id/tabhost"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
